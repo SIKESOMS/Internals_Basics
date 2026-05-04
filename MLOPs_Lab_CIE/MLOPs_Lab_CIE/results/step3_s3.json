@@ -1,0 +1,12 @@
+{
+  "image_name": "swimsync-predictor",
+  "image_tag": "v1",
+  "base_image": "python:3.10-slim",
+  "test_input": {
+    "stroke_rate": 46.7,
+    "drag_coefficient": 0.1,
+    "turn_time_ms": 583.3,
+    "pool_length_m": 37.0
+  },
+  "prediction": 49.9472
+}

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Models (tracked via Git LFS or excluded — results JSON is the proof)
+# Uncomment the next line if you do NOT want to commit .pkl files
+# models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db

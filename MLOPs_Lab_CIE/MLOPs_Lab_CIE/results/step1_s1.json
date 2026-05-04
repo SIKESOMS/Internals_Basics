@@ -1,0 +1,18 @@
+{
+  "experiment_name": "swimsync-lap-time-seconds",
+  "models": [
+    {
+      "name": "Lasso",
+      "mae": 8.9896,
+      "rmse": 9.7556
+    },
+    {
+      "name": "RandomForest",
+      "mae": 5.4282,
+      "rmse": 6.0445
+    }
+  ],
+  "best_model": "RandomForest",
+  "best_metric_name": "rmse",
+  "best_metric_value": 6.0445
+}
